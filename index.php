@@ -8,21 +8,18 @@
     <link rel="icon" href="../../../../favicon.ico">
 
     <link rel="stylesheet" href="styles.css">
-    <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous"> -->
-    <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
     <!-- Bootstrap core CSS -->
     <link href="bootstrap.min.css" rel="stylesheet">
-
     <!-- Custom styles for this template -->
     <link href="carousel.css" rel="stylesheet">
   </head>
     <title>Document</title>
 </head>
 <body>
-  
-<nav class="navbar navbar-expand-lg  bg-dark ">
+  <?php include ("menu.php") ?>
+
+<!-- <nav class="navbar navbar-expand-lg  bg-dark ">
   <div class="container-fluid">
   <div class="maman">
     <i class="bi bi-universal-access"></i>
@@ -65,7 +62,7 @@
       </form>
     </div>
   </div>
-</nav>  
+</nav>   -->
 <!-- carousel -->
 <div id="carouselExampleCaptions" class="carousel slide">
     <div class="carousel-indicators">
@@ -78,9 +75,9 @@
         <img src="14.jpg" class="d-block w-100" alt="...">
         <div class="container">
         <div class="carousel-caption text-left">
-          <h1>Example headline.</h1>
-          <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
-          <p><a class="btn btn-lg btn-primary" href="#" role="button">Sign up today</a></p>
+          <h1>Vendez au Burkina Faso.</h1>
+          <p>Une site unique qui vous permettra d'achat vos different produit en ligne clients en boutique et partout.</p>
+          <p><a class="btn btn-lg btn-primary" href="#" role="button">Inscrivez-vous aujourd'hui sur le site</a></p>
         </div>
       </div>
     </div>
@@ -88,9 +85,9 @@
       <img class="second-slide" src="9.jpg" alt="Second slide">
       <div class="container">
         <div class="carousel-caption">
-          <h1>Another example headline.</h1>
-          <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
-          <p><a class="btn btn-lg btn-primary" href="#" role="button">Learn more</a></p>
+          <h1>achete vos produits sur le site.</h1>
+          <p>Séduisez des millions de clients, vendez partout et gérez toute mon activité depuis site.</p>
+          <p><a class="btn btn-lg btn-primary" href="#" role="button">Apprendre encore plus</a></p>
         </div>
       </div>
     </div>
@@ -98,9 +95,9 @@
       <img class="third-slide" src="5.jpg" alt="Third slide">
       <div class="container">
         <div class="carousel-caption text-right">
-          <h1>One more for good measure.</h1>
-          <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
-          <p><a class="btn btn-lg btn-primary" href="#" role="button">Browse gallery</a></p>
+          <h1>Un de plus pour faire bonne mesure.</h1>
+          <p>Le commerce de détail est mon principal canal et il s’est révélé être un excellent tremplin qui na permis de mieux faire connaître mon activite et de renforcer ma présence en ligne.</p>
+          <p><a class="btn btn-lg btn-primary" href="#" role="button">Parcourir la galerie</a></p>
         </div>
       </div>
     </div>
@@ -118,27 +115,28 @@
 <!-- Marketing messaging and featurettes
       ================================================== -->
       <!-- Wrap the rest of the page in another container to center all the content. -->
-
       <div class="container marketing">
 
-        <!-- Three columns of text below the carousel -->
         <div class="row">
           <div class="col-lg-4">
             <img class="rounded-circle" src="12.jpg" alt="Generic placeholder image" width="140" height="140">
-            <h2>Heading</h2>
-            <p>Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh ultricies vehicula ut id elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Praesent commodo cursus magna.</p>
+            <h2>Titre</h2>
+            <h3>Des expériences d’achat flexibles</h3>
+            <p>Offrez aux clients un service personnalisé, et proposez une expérience d’achat flexible et une politique de retour simplifiée.</p>
             <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
           </div>
           <div class="col-lg-4">
             <img class="rounded-circle" src="1.jpg" alt="Generic placeholder image" width="140" height="140">
-            <h2>Heading</h2>
-            <p>Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Cras mattis consectetur purus sit amet fermentum. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh.</p>
+            <h2>Titre</h2>
+            <h3>Une interface de gestion unifiée</h3>
+            <p>Utilisez un seul outil pour gérer tous mais produits, mais stocks et mais clients, quel que soit le nombre de points de vente.</p>
             <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
           </div>
           <div class="col-lg-4">
             <img class="rounded-circle" src="6.jpg" alt="Generic placeholder image" width="140" height="140">
-            <h2>Heading</h2>
-            <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
+            <h2>Titre</h2>
+            <h3>Des rapports essentiels</h3>
+            <p>Prenez des décisions éclairées plus rapidement grâce à des rapports regroupant les données de vente de mon site web.</p>
             <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
           </div>
         </div>
@@ -147,8 +145,9 @@
         <hr class="featurette-divider">
         <div class="row featurette">
           <div class="col-md-7">
-            <h2 class="featurette-heading">First featurette heading. <span class="text-muted">It'll blow your mind.</span></h2>
-            <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+          <h2 class="featurette-heading">Propulsez votre entreprise avec le processus de paiement le plus performant au monde.</h2> <br>
+            <!-- <h2 class="featurette-heading">First featurette heading. <span class="text-muted">It'll blow your mind.</span></h2> -->
+            <p class="lead">Le moyen le plus simple de convertir des clients potentiels et de saisir chaque paiement.</p>
           </div>
           <div class="col-md-5">
             <img class="featurette-image img-fluid mx-auto" src="6.jpg" alt="Generic placeholder image">
@@ -158,8 +157,9 @@
         <hr class="featurette-divider">
         <div class="row featurette">
           <div class="col-md-7 order-md-2">
-            <h2 class="featurette-heading">Oh yeah, it's that good. <span class="text-muted">See for yourself.</span></h2>
-            <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+            <h2 class="featurette-heading">Vendez mais produits au Burkina Faso.</span></h2>
+            <p class="lead">Développez mon entreprise au Burkina Faso et rationalisez mon activité de vente,le tout à partir d’une seule et même site.</p>
+            <!-- <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p> -->
           </div>
           <div class="col-md-5 order-md-1">
             <img class="featurette-image img-fluid mx-auto" src="8.jpg" alt="Generic placeholder image">
@@ -169,8 +169,9 @@
         <hr class="featurette-divider">
         <div class="row featurette">
           <div class="col-md-7">
-            <h2 class="featurette-heading">And lastly, this one. <span class="text-muted">Checkmate.</span></h2>
-            <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+            <h2 class="featurette-heading">Vendez en gros.</span></h2>
+            <p class="lead">Vendez à la fois à mais clients grossistes et aux acheteur à partir d’une même plateforme et d’une même boutique en ligne grace au site.</p>
+            <!-- <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p> -->
           </div>
           <div class="col-md-5">
             <img class="featurette-image img-fluid mx-auto" src="10.jpg" alt="Generic placeholder image">
@@ -179,8 +180,9 @@
     </div>
         
         
-        
-        <section class="omni">
+    <?php include ("footer.php") ?>
+
+        <!-- <section class="omni">
         <div class="D">
             <img src="4.jpg" alt="">
             <div class="col-md-5 offset-md-1 mb-3">
@@ -200,9 +202,9 @@
           <div class="Q">
             <img src="4.jpg" alt="">
             <p class="T">Burkina Faso</p>
-            <!-- <p class="T">Pays des Hommes intègres</p>
+            <p class="T">Pays des Hommes intègres</p>
             <p class="T">Terre d'accueil et de traditions,</p>
-            <p class="T">Pays de culture</p> -->
+            <p class="T">Pays de culture</p>
           </div>
           <div>
             <p class="R">Contact</p>
@@ -214,10 +216,10 @@
               <i class="bi bi-telephone-fill"></i>
               <p>+226 65 90 44 32</p>
             </div>
-            <!-- <div class="W">
+            <div class="W">
               <i class="bi bi-envelope"></i>
               <p>info@ontb.bf</p>
-            </div> -->
+            </div>
             <div class="X">
               <i class="bi bi-facebook"></i>
               <i class="bi bi-instagram i"></i>
@@ -279,7 +281,7 @@
             <P>ONTB © 2023 Tous droits réservés - Mentions Légales..</P>
           </div>
         </div>
-      </section>
+      </section> -->
     
   <script src="bootstrap.bundle.min.js"></script>  
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
