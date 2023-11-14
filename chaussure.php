@@ -219,7 +219,7 @@
   <!-- /service -->
 
 <!-- why -->
-<section class="why">
+<!-- <section class="why">
 <h2 class="heading">pourquoi nous</h2>
 <h4>Le client est très content</h4>
 <div class="ro">
@@ -242,7 +242,7 @@
       <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt, ad! Ducimus optio mollitia in? Eligendi sequi dignissimos neque voluptatum. Optio eius quasi doloribus ad quisquam illum dignissimos dolor amet temporibus?</span>
       </div>
 </div>
-</section>
+</section> -->
 <!-- /why -->
 
 <!-- portfolio -->
@@ -255,28 +255,134 @@
 </div>
 
 <div class="box">
-  <img src="5.jpg" alt="">
+  <img src="6.jpg" alt="">
   </div>
   
   <div class="box">
-    <img src="6.jpg" alt="">
+    <img src="7.jpg" alt="">
     </div>
     
     <div class="box">
-      <img src="7.jpg" alt="">
+      <img src="4.jpg" alt="">
       </div>
       
       <div class="box">
-        <img src="4.jpg" alt="">
+        <img src="6.jpg" alt="">
         </div>
         
         <div class="box">
-          <img src="5.jpg" alt="">
+          <img src="7.jpg" alt="">
           </div>
-
 </div>
 </section>
 <!-- /portfolio -->
+
+<!-- team -->
+<div class="team">
+<h2 class="heading">our team</h2>
+<div class="rom">
+
+<div class="box">
+<div class="images">
+<img src="4.jpg" alt="">
+</div>
+<div class="content">
+<h3>sarah jons</h3>
+<div class="sochial">
+<i class="fa-brands fa-fecebook"></i>
+<i class="fa-brands fa-instagram"></i>
+<i class="fa-brands fa-twitter"></i>
+<i class="fa-brands fa-youtube"></i>
+</div>
+</div>
+</div>
+
+<div class="box">
+  <div class="images">
+  <img src="6.jpg" alt="">
+  </div>
+  <div class="content">
+  <h3>sarah jons</h3>
+  <div class="sochial">
+  <i class="fa-brands fa-fecebook"></i>
+  <i class="fa-brands fa-instagram"></i>
+  <i class="fa-brands fa-twitter"></i>
+  <i class="fa-brands fa-youtube"></i>
+  </div>
+  </div>
+  </div>
+  
+  <div class="box">
+    <div class="images">
+    <img src="7.jpg" alt="">
+    </div>
+    <div class="content">
+    <h3>sarah jons</h3>
+    <div class="sochial">
+    <i class="fa-brands fa-fecebook"></i>
+    <i class="fa-brands fa-instagram"></i>
+    <i class="fa-brands fa-twitter"></i>
+    <i class="fa-brands fa-youtube"></i>
+    </div>
+    </div>
+    </div>
+    <div class="box">
+      <div class="images">
+      <img src="4.jpg" alt="">
+      </div>
+      <div class="content">
+      <h3>sarah jons</h3>
+      <div class="sochial">
+      <i class="fa-brands fa-fecebook"></i>
+      <i class="fa-brands fa-instagram"></i>
+      <i class="fa-brands fa-twitter"></i>
+      <i class="fa-brands fa-youtube"></i>
+      </div>
+      </div>
+      </div>
+</div>
+</div>
+<!-- /team -->
+
+<!-- contact -->
+<section class="contact" id="cantact">
+<h2 class="contact">Contact us</h2>
+<div class="box">
+
+<div class="content">
+<i class="fa-solid fa-mobile-screen"></i>
+<div>+226 65 90 44 32</div>
+<div>7/7(7h-22h)</div>
+</div>
+
+<div class="content">
+  <i class="fa-solid fa-location-dot"></i>
+  <div>location:secteur21</div>
+  <div>secteur21</div>
+  </div>
+  
+  <div class="content">
+    <i class="fa-solid fa-envelope"></i>
+    <div>email:djamilatraore31@gmail.com</div>
+    <div>web:www.exaple.com</div>
+    </div>
+    <div class="row">
+    <div class="ifarm">
+    <iframe src="https://www.google.com/maps/embeb?pb=!1m18!1m12!1m3!1d55251.37708695647!2d31.29339795" frameborder="0"></iframe>
+    </div>
+    <div class="form-c">
+    <form action="">
+    <input type="text" placeholder="name">
+    <input type="email" placeholder="email">
+    <input type="number" placeholder="phone">
+<textarea name="" id="" cols="30" rows="10"></textarea>
+<input type="submit" value="send message">
+    </form>
+    </div>
+    </div>
+</div>
+</section>
+<!-- /contact -->
 
 
 
