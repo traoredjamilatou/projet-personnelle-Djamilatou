@@ -16,8 +16,20 @@
         
             <a class="nav-link text-white" href="about.php">About</a>
           </li>
-        <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle text-white" href="services.php" data-bs-toggle="dropdown" aria-expanded="false">
+          <li class="nav-item">
+        
+        <a class="nav-link text-white" href="chaussure.php">Chaussure</a>
+      </li>
+      <li class="nav-item">
+        
+        <a class="nav-link text-white" href="sac.php">Sac</a>
+      </li>
+      <li class="nav-item">
+        
+        <a class="nav-link text-white" href="brague.php">Brague</a>
+      </li>
+        <!-- <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle text-white" href="#" data-bs-toggle="dropdown" aria-expanded="false">
             SERVICES
           </a>
           <ul class="dropdown-menu">
@@ -26,7 +38,7 @@
             <li><a class="dropdown-item" href="brague.php">Brague</a></li>
             <li><a class="dropdown-item" href="sac.php">Bracelet</a></li>
           </ul>
-        </li>
+        </li> -->
           <li class="nav-item">
             <a class="nav-link text-white" href="contact.php">CONTACT</a>
           </li>
