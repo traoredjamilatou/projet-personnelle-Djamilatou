@@ -20,57 +20,55 @@
   <!-- Custom styles for this template -->
   <link href="carousel.css" rel="stylesheet">
 </head>
-<title>sercices</title>
+<title>chaussure</title>
 </head>
 
 <body>
+<header>
   <?php include ("menu.php") ?>
+<!-- nav -->
+<!-- <div class="nav container">
+<a href="#" class="logo">Mila <span>Market</span></a>
 
-  <!-- <nav class="navbar navbar-expand-lg  bg-dark ">
-  <div class="container-fluid">
-  <div class="maman">
-    <i class="bi bi-universal-access"></i>
-</div>
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarScroll">
-      <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll " style="--bs-scroll-height: 200px;">
-        <li class="nav-item">
+<li class="nav-item">
         
-            <a class="nav-link text-white" href="#">HOME</a>
-          </li>
-          <li class="nav-item">
-        
-            <a class="nav-link text-white" href="#">About</a>
-          </li>
-        <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle text-white" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-            PROJECTS
-          </a>
-          <ul class="dropdown-menu">
-            <li><a class="dropdown-item" href="#">chaussure</a></li>
-            <li><a class="dropdown-item" href="#">Sac</a></li>
-            <li><hr class="dropdown-divider"></li>
-            <li><a class="dropdown-item" href="#">brague</a></li>
-          </ul>
-        </li>
-        <li class="nav-item">
-            <a class="nav-link text-white" href="#">bracelet</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link text-white" href="#">CONTACT</a>
-          </li>
-      </ul>
-     
-      <form class="d-flex" role="search">
-        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-        <button class="btn btn-outline-success" type="submit"><i class="bi bi-exclamation-circle"></i></button>
-      </form>
+        <a class="nav-link text-white" href="index.php">HOME</a>
+      </li>
+      <li class="nav-item">
+    
+        <a class="nav-link text-white" href="about.php">About</a>
+      </li>
+      <li class="nav-item">
+    
+    <a class="nav-link text-white" href="chaussure.php">Chaussure</a>
+  </li>
+  <li class="nav-item">
+    
+    <a class="nav-link text-white" href="sac.php">Sac</a>
+  </li>
+  <li class="nav-item">
+    
+    <a class="nav-link text-white" href="brague.php">Brague</a>
+  </li>
+  <li class="nav-item">
+    
+    <a class="nav-link text-white" href="brague.php">Contact</a>
+  </li>
+    <i class="bx bx-shopping-bag" id="cart-icon"></i>
+    <div class="cart">
+        <h2 class="cart-title"> votre panier</h2>
+        <div class="cart-content">
+            
+        </div>
+        <div class="total">
+            <div class="total-title">Total</div>
+            <div class="total-price">0</div>
+        </div>
+        <button type="button" class="btn-buy">Acheter maintenant</button>
+        <i class='bx bx-x' id="close-cart"></i>
     </div>
-  </div>
-</nav>   -->
-
+</div> -->
+</header>
   <!-- home -->
   <div class="home" id="home">
     <div class="swiper home-slid">
@@ -84,10 +82,9 @@
             <h3>grow ams business</h3>
             <p>Une site unique qui vous permettra d'achat vos different produit en ligne clients en boutique et partout.
             </p>
-            <!-- <a href="#" class="btn">get start</a> -->
             <a href="#" class="no">Get start</a>
           </div>
-        </div>
+        <!-- </div>
         <div class="swiper-slide box">
           <div class="image">
             <img src="17.webp" alt="">
@@ -96,7 +93,6 @@
             <h3>grow ams business</h3>
             <p>Une site unique qui vous permettra d'achat vos different produit en ligne clients en boutique et partout.
             </p>
-            <!-- <a href="#" class="btn">get start</a> -->
             <a href="#" class="no">Get start</a>
           </div>
         </div>
@@ -108,10 +104,9 @@
             <h3>grow ams business</h3>
             <p>Une site unique qui vous permettra d'achat vos different produit en ligne clients en boutique et partout.
             </p>
-            <!-- <a href="#" class="btn">get start</a> -->
             <a href="#" class="no">Get start</a>
           </div>
-        </div>
+        </div> -->
         <div class="swiper-button-next"></div>
         <div class="swiper-button-prev"></div>
       </div>
