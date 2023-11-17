@@ -16,44 +16,73 @@
 <link rel="stylesheet" href="styles.css">
     <!-- box icons -->
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+        <!-- Box Icons -->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
     <!-- <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'> -->
 </head>
 <body>
 <!-- header -->
 
-<header>
-<?php include ("menu.php") ?>
+    <!-- header -->
+    <header>
+      <?php include ("menu.php") ?>
+        <!-- <div class="logo">
+            <img src="27.webp" class="A">
+            <h4>Marque MILA</h4>
+        </div>
+        <ul class="navbar">
+            <li><a href="index.php">HOME</a></li>
+            <li><a href="about.php">About</a></li>
+            <li><a href="chaussure.php">Chaussure</a></li>
+            <li><a href="sac.php">Sac</a></li>
+            <li><a href="brague.php">Brague</a></li>
+            <li><a href="brague.php">Contact</a></li>
+        </ul>
+        <div class="header-icons">
+            <i class='bx bx-menu' id="menu-icon"></i>
+            <i class='bx bx-search' id="search-icon"></i>
+            <i class='bx bx-cart-alt' id="cart2-icon"></i>
+            <i class='bx bx-user' id="user-icon"></i>
+            <i class="bx bx-shopping-bag" id="cart-icon"></i>
+        </div>
 
-<!-- nav -->
-<!-- <div class="nav container">
-<a href="#" class="logo">Mila <span>Market</span></a>
+        <div class="search-box">
+            <input type="search" name="" id="" placeholder="Search Here...">
+        </div>
 
-<li class="nav-item">
-        
-        <a class="nav-link text-white" href="index.php">HOME</a>
-      </li>
-      <li class="nav-item">
-    
-        <a class="nav-link text-white" href="about.php">About</a>
-      </li>
-      <li class="nav-item">
-    
-    <a class="nav-link text-white" href="chaussure.php">Chaussure</a>
-  </li>
-  <li class="nav-item">
-    
-    <a class="nav-link text-white" href="sac.php">Sac</a>
-  </li>
-  <li class="nav-item">
-    
-    <a class="nav-link text-white" href="brague.php">Brague</a>
-  </li>
-  <li class="nav-item">
-    
-    <a class="nav-link text-white" href="brague.php">Contact</a>
-  </li>
-    <i class="bx bx-shopping-bag" id="cart-icon"></i>
-    <div class="cart">
+        <div class="cart2">
+            <div class="box">
+                <img src="5.jpg" alt="">
+                <div class="text">
+                    <h3>T-Shirt 39P</h3>
+                    <span>5000f</span>
+                    <span>39</span>
+                </div>
+                <i class="bx bx-trash-alt"></i>
+            </div>
+
+            <div class="box">
+                <img src="4.jpg" alt="">
+                <div class="text">
+                    <h3>T-Shirt 40P</h3>
+                    <span>2000f</span>
+                    <span>40</span>
+                </div>
+                <i class="bx bx-trash-alt"></i>
+            </div>
+            <h2>Total:0f</h2>
+            <a href="#" class="btn">Vérifier</a>
+        </div>
+
+        <div class="user">
+            <h2>Login Now</h2>
+            <input type="email" placeholder="Your Email...">
+            <input type="password" name="" id="" placeholder="password">
+            <input type="submit" value="Login" class="login-btn">
+            <p>Mot de Passe Oublié <a href="#">Réinitialiser Maintenant</a></p>
+            <p>Je n'ai pas de compte<a href="#">Créer Une</a></p>
+        </div>
+        <div class="cart">
         <h2 class="cart-title"> votre panier</h2>
         <div class="cart-content">
         </div>
@@ -64,33 +93,23 @@
         <button type="button" class="btn-buy">Acheter maintenant</button>
         <i class='bx bx-x' id="close-cart"></i>
     </div>
-</div> -->
-</header>
-
-
-<div class="home" id="home">
-    <div class="swiper home-slid">
-      <div class="swiper-wrapper">
-
-        <div class="swiper-slide box">
-          <div class="image">
-            <img src="17.jpg" alt="">
-          </div>
-          <div class="content">
-            <h3>grow ams business</h3>
-            <p>Une site unique qui vous permettra d'achat vos different produit en ligne clients en boutique et partout.
-            </p>
-            <!-- <a href="#" class="btn">get start</a> -->
-            <a href="#" class="no">Get start</a>
-          </div>
-          <div class="swiper-button-next"></div>
-        <div class="swiper-button-prev"></div>
-      </div>
-    </div>
-  </div> <br><br>
-<!-- shop -->
-<section class="shop container">
-<h2 class="section-title">Articles a la une</h2>
+</div>  -->
+    </header>
+    
+    <!-- home -->
+    <section class="home" id="home">
+        <div class="home-text">
+            <span>Achetez maintenant</span>
+            <h1>New Arrival of <br>Fresh Products</h1>
+            <a href="#" class="btn2">Achetez maintenant</a>
+        </div>
+        <div class="home-img">
+            <img src="6.jpg" alt="">
+        </div>
+    </section>
+    
+    <section class="shop container">
+<h2 class="section-title">Articles a la une</h2> 
 <!-- content  -->
 <div class="shop-content">
 
@@ -156,7 +175,7 @@
         <h2 class="product-title">SAC 3</h2>
         <span class="price">4000CFA</span>
         <i class='bx bx-shopping-bag add-cart'></i>
-    </div>
+    </div> 
 
      <!-- box 8 -->
      <div class="product-box">
@@ -166,8 +185,7 @@
         <i class='bx bx-shopping-bag add-cart'></i>
     </div>
 </div>
-</section>
-
+</section> 
 
 <!-- Marketing messaging and featurettes
       ================================================== -->
@@ -197,15 +215,13 @@
             <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
           </div>
         </div>
-      </div>
-      
-       <!-- START THE FEATURETTES -->
-       <section class="B">
+      </div> 
+      <!-- START THE FEATURETTES -->
+        <section class="B">
        <hr class="featurette-divider">
        <div class="row featurette">
          <div class="col-md-7">
          <h2 class="featurette-heading">Propulsez votre entreprise avec le processus de paiement le plus performant au monde.</h2> <br>
-           <!-- <h2 class="featurette-heading">First featurette heading. <span class="text-muted">It'll blow your mind.</span></h2> -->
            <p class="lead">Le moyen le plus simple de convertir des clients potentiels et de saisir chaque paiement.</p>
          </div>
          <div class="col-md-5">
@@ -218,7 +234,6 @@
          <div class="col-md-7 order-md-2">
            <h2 class="featurette-heading">Vendez mais produits au Burkina Faso.</h2>
            <p class="lead">Développez mon entreprise au Burkina Faso et rationalisez mon activité de vente,le tout à partir d’une seule et même site.</p>
-           <!-- <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p> -->
          </div>
          <div class="col-md-5 order-md-1">
            <img class="featurette-image img-fluid mx-auto" src="8.jpg" alt="Generic placeholder image">
@@ -230,20 +245,18 @@
          <div class="col-md-7">
            <h2 class="featurette-heading">Vendez en gros.</h2>
            <p class="lead">Vendez à la fois à mais clients grossistes et aux acheteur à partir d’une même plateforme et d’une même boutique en ligne grace au site.</p>
-           <!-- <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p> -->
          </div>
          <div class="col-md-5">
            <img class="featurette-image img-fluid mx-auto" src="10.jpg" alt="Generic placeholder image">
          </div>
        </div> <br> <br> <br>
    </div>
-  </section>
-
+  </section> 
 
   <section class="omni">
-  <?php include ("footer.php") ?>
+    <?php include ("footer.php") ?>
 
-    <!-- <div class="D">
+     <!-- <div class="D">
         <img src="4.jpg" alt="">
         <div class="col-md-5 offset-md-1 mb-3">
             <form>
@@ -340,9 +353,12 @@
       <div class="n">
         <P>ONTB © 2023 Tous droits réservés - Mentions Légales..</P>
       </div>
-    </div> -->
-  </section>
+    </div>-->
+  </section> 
 
+
+
+  <script src="main.js"></script>
 <script src="bootstrap.bundle.min.js"></script>  
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
 integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"

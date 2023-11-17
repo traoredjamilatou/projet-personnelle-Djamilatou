@@ -16,7 +16,7 @@
             </div>
         <div class="footer container-fluid">
           <div class="Q">
-            <img src="4.jpg" alt="">
+            <img src="27.webp" alt="">
             <p class="T">Burkina Faso</p>
             <!-- <p class="T">Pays des Hommes intègres</p>
             <p class="T">Terre d'accueil et de traditions,</p>

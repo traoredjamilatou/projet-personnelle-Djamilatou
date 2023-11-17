@@ -114,7 +114,7 @@ header{
     right: 1rem;
     transition: 0.2s;
 }
-.cart{
+.cart2{
     position: absolute;
     top: 110%;
     /* right: 1rem; */
@@ -128,28 +128,28 @@ header{
     border-radius: 0.5rem;
     box-shadow: var(--box-shadow);
 }
-.cart img{
+.cart2 img{
     width: 100px;
 }
-.cart .box{
+.cart2 .box{
     display: flex;
     align-items: center;
     column-gap: 2rem;
 }
-.cart .box .text h3{
+.cart2 .box .text h3{
     font-size: 1rem;
 }
-.cart .box .bx{
+.cart2 .box .bx{
     font-size: 24px;  
 }
-.cart .box .bx:hover{
+.cart2 .box .bx:hover{
 color: var(--main-color);    
 }
-.cart h2{
+.cart2 h2{
     font-size: 1.1rem;
     font-weight: 600;
 }
-.cart.active{
+.cart2.active{
     right: 1rem;
     transition: 0.2s;
 }
@@ -201,6 +201,17 @@ color: var(--main-color);
     right: 1rem;
     transition: 0.2s;
 }
+
+
+
+
+
+
+
+
+
+
+
 .home{
     width: 100%;
     min-height: 100vh;

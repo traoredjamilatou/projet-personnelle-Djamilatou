@@ -30,7 +30,7 @@
         <div class="header-icons">
             <i class='bx bx-menu' id="menu-icon"></i>
             <i class='bx bx-search' id="search-icon"></i>
-            <i class='bx bx-cart-alt' id="cart-icon"></i>
+            <i class='bx bx-cart-alt' id="cart2-icon"></i>
             <i class='bx bx-user' id="user-icon"></i>
         </div>
 
@@ -40,7 +40,7 @@
         </div>
 
         <!-- cart-box -->
-        <div class="cart">
+        <div class="cart2">
             <!-- Box 1 -->
             <div class="box">
                 <img src="5.jpg" alt="">
