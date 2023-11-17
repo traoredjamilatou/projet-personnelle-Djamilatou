@@ -170,7 +170,8 @@ header{
     margin: 1rem 0;
 }
 .image img{
-    width: 100%;
+    width: 75%;
+    height: 75%;
 }
 .no::before{
     background: none;
